@@ -1,4 +1,4 @@
-## installeren
+## install
     git clone this_repository
     cd this_repository
     npm install
@@ -8,7 +8,7 @@
 
 
 ## deploy
-forever index.js
+forever start index.js
 
 
 

@@ -53,7 +53,7 @@ app.get('/api/query/:z/:x/:y', async (request, response)=>{
     //console.log(sql);
     try {
         let queryResult = await pool.query(sql);
-        response.send(queryResult);
+        response.json(queryResult.rows);
     } catch(err) {
         response.status(500).send(err.message);
     }
