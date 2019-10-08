@@ -6,6 +6,11 @@
     #edit file config.json for your database
     npm start
 
+## develop
+adjust sql to match your database
+
+## test
+in your browser, visit http://localhost:8306/api/query/3/2/1?a=ok&b=text
 
 ## deploy
 forever start index.js
